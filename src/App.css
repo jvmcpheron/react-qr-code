@@ -1,0 +1,41 @@
+body{
+  background-color: hsl(219, 52%, 83%);
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid{
+  height: 100%;
+}
+
+#qr-card{
+  background-color: white;
+  width: 284px;
+  padding: 17px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+
+}
+
+
+#qr-card h2{
+  text-align: center;
+  padding-top: 20px;
+  margin: 10px;
+  font-size: 18px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+#qr-card p{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10;
+  margin: 10px;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
